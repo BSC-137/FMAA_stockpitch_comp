@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "as_of": "2026-09-22",
+    "ticker": "ASX:XRO",
+    "recommendation": "BUY",
+    "spot_aud": 60.0,
+    "base_pt_aud": 90.0,
+    "expected_pt_aud": 90.0,
+    "shares_m": 164.588,
+    "fx_nzd_aud": 0.9,
+    "wacc": 0.095
+  },
+  "public_fundamentals": {
+    "fy26_rev_nzd_m": 2753.081,
+    "fy26_adj_ebitda_nzd_m": 757.352,
+    "fy26_ro40_headline": 0.485,
+    "fy26_ro40_proforma": 0.36,
+    "fy27_rev_guide_nzd_m": [
+      3620.0,
+      3730.0
+    ],
+    "fy27_adj_ebitda_guide_nzd_m": [
+      860.0,
+      920.0
+    ],
+    "melio_be_window": "H2 FY28",
+    "melio_upfront_usd_bn": 2.5,
+    "net_debt_nzd_m": 400.0,
+    "us_brand_spend_nzd_m_up_to": 55.0
+  },
+  "expectations_gap": {
+    "spot_aud": 60.0,
+    "equity_value_aud_m": 9875.279999999999,
+    "ev_aud_m": 10235.279999999999,
+    "fy27_rev_aud_m": 3307.5,
+    "fy27_ebitda_aud_m": 801.0,
+    "implied_ev_sales_fy27": 3.094566893424036,
+    "implied_ev_ebitda_fy27": 12.778127340823968,
+    "spot_implied_exit_ev_sales_on_street_g": 2.871653176524847,
+    "street_exit_ev_sales": 5.0,
+    "our_bull_exit_ev_sales": 5.8,
+    "street_fy28_rev_growth": 0.18,
+    "our_bull_fy28_rev_growth": 0.24,
+    "spot_implied_fy28_ro40": 0.37,
+    "street_fy28_ro40": 0.41,
+    "our_bull_fy28_ro40": 0.45,
+    "melio_spot_implied_nzd_m": 300.0,
+    "melio_street_nzd_m": 450.0,
+    "melio_our_bull_nzd_m": 550.0,
+    "gap_narrative": "At A$60, EV\u2248A$10.24bn \u2192 FY27 EV/Sales 3.09x / EV/EBITDA 12.8x. Even if Street\u2019s 18.0% FY28 growth delivers, spot only capitalises a ~2.9x FY28 exit multiple (EV carried at WACC) \u2014 i.e. the market prices PERMANENT Melio drag and Ro40 miss (~37%). Street fair exit ~5.0x and our bull ~5.8x on Ro40 restoration (41% / 45%) define the expectations GAP. BUY = close the gap via Melio BE timing + Ro40, not Motley-Fool 'buy the dip'."
+  },
+  "catalysts": [
+    {
+      "id": "C1",
+      "name": "Melio H2 FY28 BE path reaffirmed",
+      "likelihood": 0.65,
+      "delta_pt_aud": 12.0,
+      "timing_window": "Nov 2026 \u2013 May 2027",
+      "observable_kpi": "Mgmt reiterates H2 FY28 run-rate adj EBITDA BE; Melio loss trajectory",
+      "kill_switch": "BE slipped past FY28 \u2192 strip C1; cut Melio EV 40%; base PT \u2192 A$70",
+      "direction": "upside",
+      "notes": "Primary differentiator vs crowded AI-moat BUY",
+      "contribution": 7.8
+    },
+    {
+      "id": "C2",
+      "name": "FY27 guide reaffirm / top-half delivery",
+      "likelihood": 0.55,
+      "delta_pt_aud": 6.0,
+      "timing_window": "Nov 2026 (H1) / May 2027",
+      "observable_kpi": "Rev & adj EBITDA vs NZ$3.62\u20133.73bn / NZ$860\u2013920m",
+      "kill_switch": "Cut below guide floors \u2192 open bear weight to 35%+",
+      "direction": "upside",
+      "notes": "",
+      "contribution": 3.3
+    },
+    {
+      "id": "C3",
+      "name": "US payments take-rate + Melio\u2194Xero attach",
+      "likelihood": 0.5,
+      "delta_pt_aud": 8.0,
+      "timing_window": "FY27 H1\u2013H2",
+      "observable_kpi": "Payments rev growth; ARPC; TPV/customer; US NCA",
+      "kill_switch": "Payments growth <25% YoY for 2 consecutive halves",
+      "direction": "upside",
+      "notes": "",
+      "contribution": 4.0
+    },
+    {
+      "id": "C4",
+      "name": "FY28 Rule-of-40 \u226540 path credible",
+      "likelihood": 0.45,
+      "delta_pt_aud": 10.0,
+      "timing_window": "FY27 results \u2192 FY28 outlook",
+      "observable_kpi": "Pro-forma Ro40 from ~36% toward \u226540%",
+      "kill_switch": "FY28 pro-forma Ro40 guided <38% \u2192 multiple stays compressed",
+      "direction": "upside",
+      "notes": "",
+      "contribution": 4.5
+    },
+    {
+      "id": "C5",
+      "name": "JAX/AI early monetisation (ARPC)",
+      "likelihood": 0.4,
+      "delta_pt_aud": 5.0,
+      "timing_window": "FY27\u2013H1 FY28",
+      "observable_kpi": "Priced AI SKU / consumption pilots; ARPC ex-payments",
+      "kill_switch": "Immaterial AI ARPC by FY27 results \u2192 C5 = 0",
+      "direction": "upside",
+      "notes": "Secondary \u2014 do not lead with AI-moat crowd story",
+      "contribution": 2.0
+    },
+    {
+      "id": "C6",
+      "name": "Multiple re-rate as Melio EBITDA troughs",
+      "likelihood": 0.5,
+      "delta_pt_aud": 9.0,
+      "timing_window": "H2 FY27 \u2013 H1 FY28",
+      "observable_kpi": "Group adj EBITDA margin inflection; FCF conversion",
+      "kill_switch": "Margins roll over despite revenue \u2192 cancel C6",
+      "direction": "upside",
+      "notes": "",
+      "contribution": 4.5
+    },
+    {
+      "id": "C7",
+      "name": "DOWN: Melio integration / US brand ROI miss",
+      "likelihood": 0.3,
+      "delta_pt_aud": -14.0,
+      "timing_window": "Any time FY27",
+      "observable_kpi": "Brand spend >NZ$55m without NCA lift; Melio churn/synergy miss",
+      "kill_switch": "N/A (this is the kill path)",
+      "direction": "downside",
+      "notes": "",
+      "contribution": -4.2
+    },
+    {
+      "id": "C8",
+      "name": "DOWN: SMB software risk-off derate",
+      "likelihood": 0.25,
+      "delta_pt_aud": -10.0,
+      "timing_window": "12m anytime",
+      "observable_kpi": "ASX tech multiple compression; US SMB confidence",
+      "kill_switch": "N/A",
+      "direction": "downside",
+      "notes": "",
+      "contribution": -2.5
+    }
+  ],
+  "catalyst_expected_incremental_aud": 19.4,
+  "scenarios": [
+    {
+      "name": "Bull",
+      "weight": 0.25,
+      "pt_aud": 118.0,
+      "drivers": "Melio BE on time; Ro40\u226545; payments attach; exit ~5.8x FY28 sales; AI ARPC material"
+    },
+    {
+      "name": "Base",
+      "weight": 0.55,
+      "pt_aud": 90.0,
+      "drivers": "Melio BE path intact; Ro40 ~41\u201342; exit ~5.0x FY28; guide mid delivered"
+    },
+    {
+      "name": "Bear",
+      "weight": 0.2,
+      "pt_aud": 55.0,
+      "drivers": "Melio BE slips; Ro40<38; brand ROI miss; exit stuck ~3x; crowded unwind"
+    }
+  ],
+  "expected_pt_aud": 90.0,
+  "melio_bridge": {
+    "methodology": "Melio = option-like cashflow path to H2 FY28 adj-EBITDA run-rate BE, then FY29 EV/Sales exit (EBITDA cross-check). Core Xero SaaS valued separately \u2014 BUY is not lazy 'buy the dip' on group multiples.",
+    "deal_upfront_usd_bn": 2.5,
+    "deal_contingent_usd_bn_up_to": 0.5,
+    "be_window": "H2 FY28",
+    "points": [
+      {
+        "label": "Bear_slip",
+        "fy28_rev_nzd_m": 280.0,
+        "fy29_rev_nzd_m": 313.6,
+        "fy29_ev_sales": 2.5,
+        "integration_burn_nzd_m": 200.0,
+        "pv_aud_m": 400.3,
+        "value_ps_aud": 2.43,
+        "ebitda_crosscheck_ps_aud": -0.1,
+        "fy29_ebitda_margin_assumed": 0.04
+      },
+      {
+        "label": "Base_BE_path",
+        "fy28_rev_nzd_m": 420.0,
+        "fy29_rev_nzd_m": 512.4,
+        "fy29_ev_sales": 4.0,
+        "integration_burn_nzd_m": 120.0,
+        "pv_aud_m": 1322.7,
+        "value_ps_aud": 8.04,
+        "ebitda_crosscheck_ps_aud": 3.34,
+        "fy29_ebitda_margin_assumed": 0.1
+      },
+      {
+        "label": "Bull_attach",
+        "fy28_rev_nzd_m": 550.0,
+        "fy29_rev_nzd_m": 704.0,
+        "fy29_ev_sales": 5.0,
+        "integration_burn_nzd_m": 80.0,
+        "pv_aud_m": 2358.1,
+        "value_ps_aud": 14.33,
+        "ebitda_crosscheck_ps_aud": 9.05,
+        "fy29_ebitda_margin_assumed": 0.16
+      }
+    ],
+    "weights": {
+      "bear": 0.25,
+      "base": 0.5,
+      "bull": 0.25
+    },
+    "pw_value_ps_aud": 8.21,
+    "base_value_ps_aud": 8.04,
+    "sensitivity_note": "Sensitivity [MODEL]: \u00b11.0x FY29 EV/Sales \u2248 \u00b1A$4\u20136/sh; BE slip (Base\u2192Bear) \u2248 \u2212A$10\u201312/sh. Kill-switch: BE past FY28 collapses Base\u2192Bear."
+  },
+  "sotp": {
+    "core_saas_ps": 93.85,
+    "melio_option_ps": 8.04,
+    "other_ai_brand_net_ps": 3.5,
+    "sotp_pt": 105.39,
+    "pitch_base_pt": 90.0,
+    "reconciliation": "SOTP prints A$105.4/sh. Pitch BASE PT set at A$90 (conservative vs SOTP; aligns with E[PT] from scenario weights). Bull A$118 / Bear A$55 bracket uncertainty.",
+    "assumptions": {
+      "melio_fy27_rev_nzd_m": 380.0,
+      "core_fy28_growth": 0.15,
+      "core_exit_ev_sales_fy28": 5.0,
+      "fx_nzd_aud": 0.9,
+      "wacc": 0.095
+    }
+  },
+  "crowding_defense": {
+    "street_positioning": {
+      "tv_3m_buys": 6,
+      "tv_3m_holds": 1,
+      "tv_3m_sells": 0,
+      "named_buy_count": 5,
+      "named_hold_count": 1,
+      "named_pt_min": 77.0,
+      "named_pt_max": 130.0,
+      "named_pt_avg": 107.66,
+      "tv_avg_pt": 111.24,
+      "source": "Fool AU 21 Sep 2026 + stockanalysis/S&P Global summaries (verify primary notes)",
+      "named_pts": [
+        {
+          "broker": "Citi",
+          "pt": 113.6,
+          "rating": "Buy",
+          "as_of": "2026-08-27",
+          "source": "Fool/stockanalysis"
+        },
+        {
+          "broker": "Morgan Stanley",
+          "pt": 130.0,
+          "rating": "Buy",
+          "as_of": "2026-05-15",
+          "source": "Fool/stockanalysis"
+        },
+        {
+          "broker": "UBS",
+          "pt": 127.0,
+          "rating": "Buy",
+          "as_of": "~2026-09",
+          "source": "Fool AU"
+        },
+        {
+          "broker": "Ord Minnett",
+          "pt": 110.0,
+          "rating": "Buy",
+          "as_of": "2026-05-15",
+          "source": "Fool/stockanalysis"
+        },
+        {
+          "broker": "Morgans",
+          "pt": 111.0,
+          "rating": "Buy",
+          "as_of": "2026-05-14",
+          "source": "Fool/stockanalysis"
+        },
+        {
+          "broker": "RBC Capital",
+          "pt": 85.0,
+          "rating": "Hold",
+          "as_of": "2026-07-27",
+          "source": "stockanalysis"
+        },
+        {
+          "broker": "Jefferies",
+          "pt": 77.0,
+          "rating": "Cautious",
+          "as_of": "~2026-09",
+          "source": "Fool AU"
+        }
+      ]
+    },
+    "crowded_narrative_we_reject": "Motley Fool AU (21 Sep 2026) 'buy the dip / brokers +76\u2013130%' + generic AI-moat. That is LONG the consensus BUY wall without a falsifiable Melio-timing edge.",
+    "our_differentiated_thesis": "(1) Melio monetisation TIMING (H2 FY28 BE) as binding constraint on Ro40; (2) Expectations gap \u2014 spot capitalises ~3x exit even on Street growth; (3) PWCT with kill-switches; (4) Base PT A$90 BELOW Street avg \u2014 not max-bull crowd.",
+    "falsifiable_criteria": [
+      {
+        "test": "Melio BE",
+        "pass": "Mgmt reiterates H2 FY28 run-rate adj EBITDA BE at FY27 results",
+        "fail_action": "Cut base PT to A$70; bear weight \u2192 40%"
+      },
+      {
+        "test": "FY27 guide",
+        "pass": "Deliver within NZ$3.62\u20133.73bn / NZ$860\u2013920m",
+        "fail_action": "Invalidate C2/C4; revisit multiples"
+      },
+      {
+        "test": "Ro40 path",
+        "pass": "Pro-forma Ro40 trajectory toward \u226540% by FY28",
+        "fail_action": "Cap PT at A$75 (cautious Street cluster: Jefferies/RBC)"
+      },
+      {
+        "test": "Crowding discipline",
+        "pass": "Our PT A$90 stays below Street avg (~A$111\u2013124)",
+        "fail_action": "If PT chased to A$130+, thesis has drifted into crowd"
+      }
+    ],
+    "morningstar_note": "[ASSUMPTION/UNVERIFIED] Brief cites Morningstar FV ~A$98\u2013100; not confirmed from primary Morningstar page in this run \u2014 peer reference only.",
+    "vs_spot_upside_our_base_pct": 0.5,
+    "vs_street_avg_discount_pct": -0.1909
+  }
+}
